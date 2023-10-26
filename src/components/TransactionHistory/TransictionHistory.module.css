@@ -1,0 +1,25 @@
+.history {
+    border-collapse: collapse;
+    border: 1px solid green;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    width: 500px;
+}
+thead {
+    background-color: aquamarine;
+}
+tr {
+    border: 1px solid green;
+}
+tr:nth-child(even) {
+background-color: lightgray;
+}
+th {
+    border: 1px solid green;;
+}
+td {
+    padding-left: 20px;
+    border: 1px solid green;
+}
