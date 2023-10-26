@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactDOM } from "react";
 import { Profile} from "./Profile/Profile";
 import user from "../user.json";
 import data from "../data.json";
