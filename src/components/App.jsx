@@ -28,8 +28,7 @@ export const App = () => {
   location={user.location}
   avatar={user.avatar}
   stats={user.stats} />
-{title && <Statistics title={title} stats={data} />} 
-<Statistics stats={data}/>
+<Statistics stats={data} title={title}/>
 <FriendList friends={friends} />
 <TransactionHistory items={transactions} />
     </div>
